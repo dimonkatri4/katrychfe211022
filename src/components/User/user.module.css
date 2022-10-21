@@ -1,0 +1,61 @@
+.user {
+    padding: 20px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eaf1f6;
+    margin: 0 20px 20px;
+    display: flex;
+}
+
+.userPhoto {
+    box-shadow: 1px 1px 6px #e1e8ed;
+    border-radius: 100%;
+    display: inline-block;
+    height: fit-content;
+}
+
+.ava {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.dataUser {
+    align-self: center;
+    margin: 15px;
+}
+
+.nameUser {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: #424242;
+}
+
+.nicknameUser {
+    color: #088dcd;
+    word-break: break-word;
+}
+
+.buttons {
+    align-self: center;
+    margin-left: auto;
+}
+
+.button {
+    background-color: #088dcd;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100px;
+    align-self: center;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 5px 7px 5px #e1e8ed;
+}

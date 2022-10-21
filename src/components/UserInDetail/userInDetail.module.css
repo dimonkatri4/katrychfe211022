@@ -1,0 +1,73 @@
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eaf1f6;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.userPhoto {
+    box-shadow: 1px 1px 6px #e1e8ed;
+    border-radius: 100%;
+    display: inline-block;
+    height: fit-content;
+    margin: 20px;
+}
+
+.ava {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.buttons {
+    align-self: center;
+    margin: 20px;
+}
+
+.button {
+    background-color: #088dcd;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    width: 200px;
+    align-self: center;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 5px 7px 5px #e1e8ed;
+}
+
+.detailInfo {
+    margin: 10px;
+    align-self: flex-start;
+}
+
+.detailInfo span {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.position {
+    margin-bottom: 20px;
+}
