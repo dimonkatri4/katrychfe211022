@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {IUser} from "../../types/IUser";
 import style from "./usersPage.module.css"
 import User from "../User/User";
@@ -10,7 +10,7 @@ interface Props {
 
 const UsersPage = ({users, onChangeIsDetail}: Props) => {
 
-    const [isAll, setIsAll] = useState(false)
+    const [isAll, setIsAll] = React.useState(false)
     const displayedUsers = isAll ? users : users.slice(0, 3)
 
     const handleChangeIsAll = (value: boolean) => {
@@ -18,7 +18,7 @@ const UsersPage = ({users, onChangeIsDetail}: Props) => {
     }
 
     return (
-        <div className={style.users}>
+        <div className={style.users} data-testid='usersPage'>
             {displayedUsers.map(user => <User onChangeIsDetail={onChangeIsDetail} key={user.nickname} user={user}/>)}
             <div className={style.buttonBlock}>
                 <button
