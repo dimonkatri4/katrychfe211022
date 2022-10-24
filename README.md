@@ -2,7 +2,7 @@
 
 ## Додаток розроблений за допомогою фреймворку React, на TypeScript 
 
-### Ознайомитись з додатком онлайн можна за посиланням: [User Widget](https://6352dacd16a30c3e8bd40013--bright-biscuit-d46722.netlify.app/)
+### Ознайомитись з додатком онлайн можна за посиланням: [User Widget](https://bright-biscuit-d46722.netlify.app/)
 
 ## Для локального запуску
 
