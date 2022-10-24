@@ -21,7 +21,7 @@ const UserInDetail = ({ onChangeIsDetail }: Props) => {
     return (
         <>
             {currentUser ? (
-                <div className={style.userInfo}>
+                <div className={style.userInfo} data-testid='userInDetail'>
                     <div className={style.userPhoto}>
                         <img className={style.ava} src={`/photo/${currentUser.photo}`} />
                     </div>

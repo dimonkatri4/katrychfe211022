@@ -11,7 +11,7 @@ jest.mock('../../User/User',
         });
 
 describe('UsersPage component test', () => {
-    it('UsersPage render', () => {
+    it('UsersPage should be render', () => {
         const onChangeIsDetailMock = jest.fn();
         render(<UsersPage users={users} onChangeIsDetail={onChangeIsDetailMock}/>)
         expect(screen.getByTestId('usersPage')).toBeInTheDocument();
